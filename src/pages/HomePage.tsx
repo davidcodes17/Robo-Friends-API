@@ -34,7 +34,7 @@ const HomePage = () => {
   );
   return (
     <Box p={10}>
-      <Heading textAlign={"center"} className="header">
+      <Heading textAlign={"center"} fontSize={{lg : 50,md : 40, sm  :25,base : 20}} className="header">
         ROBOFRIENDS
       </Heading>
       <Flex justifyContent={"center"}>
@@ -47,7 +47,7 @@ const HomePage = () => {
       <Grid
         my={10}
         justifyContent={"center"}
-        gridTemplateColumns={"1fr 1fr 1fr 1fr"}
+        gridTemplateColumns={{lg : "1fr 1fr 1fr 1fr", md :"1fr 1fr 1fr", sm :"1fr 1fr",base  : "1fr"}}
         gridGap={"40px"}
       >
         {filteredUsers.map((user,key) => (
