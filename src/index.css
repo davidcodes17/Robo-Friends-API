@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+@font-face {
+  font-family: SEGA;
+  src: url("/SEGA.TTF");
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Manrope", sans-serif !important;
+}
+.header{
+  font-family: SEGA !important;
+  color: #fff   !important;
+  letter-spacing: 10px;
+  font-weight: 500;
+}
+body {
+  background: #22163e !important;
+  color: #fff !important;
+}
+input:focus{
+    box-shadow: 0px 0px 0px #ddd !important;
+}
